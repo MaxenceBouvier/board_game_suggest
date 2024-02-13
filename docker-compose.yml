@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bgs:
+    image: bgs_ml
+    build:
+      context: .
+      dockerfile: ./Dockerfile
